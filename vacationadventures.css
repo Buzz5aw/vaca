@@ -34,6 +34,26 @@ a:hover,a:active{
 
 /* Nav CSS End */
 
+/* Video Page */
+.video_description_above{
+	font-size: 32px;
+	color: white;
+	padding: 3px 20px;
+	background-color:#98bf21;
+	display:block;
+
+}
+
+.video_description_below{
+	color: white;
+	font-size: 18px;
+	padding: 3px 20px;
+	background-color:#98bf21;
+	display:block;
+}
+
+/* Video Page End */
+
 
 
 /* Contact Page */
