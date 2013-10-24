@@ -194,22 +194,11 @@ iframe{
 
 /* Footer */
 
-footer{
-	height: 50px; 
-	width: 100%;
-	background-color: #98bf21;
+.footer{
+	color: white;
+	float: right;
+	padding: 0 30px;
 }
-
-.copyright{
-	float:left;
-	width:250px;
-	padding: 20px 25px;
-}
-
-.date_display{
-	padding: 20px 25px;
-}
-
 /* Footer End */
 
 
