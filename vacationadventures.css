@@ -1,9 +1,49 @@
 body{
 	margin: 0 auto;
+<<<<<<< HEAD
+	width: 900px;
+	background:#aaaaaa;
+=======
 	width: 80%;
+	background:#98bf21;
+	font-family: Helvetica;
+>>>>>>> 157e678c5031be3302bc84857adca04dfecf1a2d
 }
 
+/* Header */
+header{
+	background-color: #98bf21;
+	height:200px;
+}	
+
+.company_name{
+	position: relative;
+	font-size: 4em;
+	padding: 65px 0px 0px 0px;
+	left:50px;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+     }
+
+.company_logo{
+	float:left;
+}
+
+/* Header End */
+
+
 /* Nav Css */
+
+nav{
+	background-color: #98bf21;
+	width: 672px;
+	margin: 0 auto;
+	margin-top: absolute;
+}
 
 ul{
 	list-style-type:none;
@@ -15,10 +55,11 @@ ul{
 li{
 	float:left;
 }
+
 		
 a:link,a:visited{
 	display:block;
-	width:120px;
+	width:160px;
 	font-weight:bold;
 	color:#FFFFFF;
 	background-color:#98bf21;
@@ -30,6 +71,20 @@ a:link,a:visited{
 		
 a:hover,a:active{
 	background-color:#7A991A;
+}
+#contentBox {
+	width: 901.593px;
+	margin: 0 auto;
+	margin-top: absolute;
+}
+#column1{
+	text-align: center;
+}
+#column2{
+	text-align: center;
+}
+#column3{
+	text-align: center;
 }
 
 /* Nav CSS End */
@@ -55,7 +110,6 @@ a:hover,a:active{
 /* Video Page End */
 
 
-
 /* Contact Page */
 
 #contactmaps{
@@ -64,7 +118,17 @@ a:hover,a:active{
 }
 
 .contact_hdr{
-	margin: ;
+	margin: 0px 15px;
+	padding: 30px;
+	font-size: 1.75em;
+	font
+}
+
+.contact_table{
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 0px;
+	margin: 0px;
 }
 
 .comment_txt_area{
@@ -74,6 +138,79 @@ a:hover,a:active{
 
 .contact_table{
 	margin: 20px 120px;
+	background: #bbbbbb;
+	box-shadow: 2px 2px 2px, -2px -2px -2px; 
+}
+
+.contact_maps_txt{
+	margin:25px;
+}
+
+iframe{
+	margin: 20px auto 0px;
+}
+
+.hr{
+	height: 1px;
+	background: green;
+	margin: 0px;
+	padding: 0px;
+	width: 40%;
+	
 }
 
 /* Contact Page End */
+
+
+
+/* Video Page */
+.video_description_above{
+	font-size: 32px;
+	color: white;
+	padding: 3px 20px;
+	background-color:#98bf21;
+	display:block;
+
+}
+
+.video_description_below{
+	color: white;
+	font-size: 18px;
+	padding: 3px 20px;
+	background-color:#98bf21;
+	display:block;
+}
+
+.video{
+	margin: 0 120px;
+
+}
+
+/* Video Page End */
+
+
+
+
+
+/* Footer */
+
+footer{
+	height: 50px; 
+	width: 100%;
+	background-color: #98bf21;
+}
+
+.copyright{
+	float:left;
+	width:250px;
+	padding: 20px 25px;
+}
+
+.date_display{
+	padding: 20px 25px;
+}
+
+/* Footer End */
+
+
+/* Misc */
