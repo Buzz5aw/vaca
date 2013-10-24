@@ -102,6 +102,10 @@ a:hover,a:active{
 	display:block;
 }
 
+.class_button{
+	text-align: right;
+}
+
 /* Video Page End */
 
 
@@ -164,7 +168,7 @@ iframe{
 	padding: 3px 20px;
 	background-color:#98bf21;
 	display:block;
-
+	text-align: center;
 }
 
 .video_description_below{
@@ -173,10 +177,11 @@ iframe{
 	padding: 3px 20px;
 	background-color:#98bf21;
 	display:block;
+	text-align: center;
 }
 
 .video{
-	margin: 0 120px;
+	margin: 0 190px;
 
 }
 
