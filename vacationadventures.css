@@ -1,13 +1,8 @@
 body{
 	margin: 0 auto;
-<<<<<<< HEAD
-	width: 900px;
-	background:#aaaaaa;
-=======
-	width: 80%;
+	width: 1000px;
 	background:#98bf21;
 	font-family: Helvetica;
->>>>>>> 157e678c5031be3302bc84857adca04dfecf1a2d
 }
 
 /* Header */
@@ -40,7 +35,7 @@ IMG.displayed {
 
 nav{
 	background-color: #98bf21;
-	width: 672px;
+	width: 800px;
 	margin: 0 auto;
 	margin-top: absolute;
 }
@@ -119,27 +114,23 @@ a:hover,a:active{
 
 .contact_hdr{
 	margin: 0px 15px;
-	padding: 30px;
+	padding: 15px 30px 5px;
 	font-size: 1.75em;
-	font
+	text-align:center;
 }
 
 .contact_table{
 	border: 2px solid black;
 	border-radius: 20px;
-	padding: 0px;
-	margin: 0px;
+	padding: 10px;
+	margin: 20px 120px;
+	background: #bbbbbb;
+	box-shadow: 2px 2px 2px inset; 
 }
 
 .comment_txt_area{
 	width:500px;
 	height:300px;
-}
-
-.contact_table{
-	margin: 20px 120px;
-	background: #bbbbbb;
-	box-shadow: 2px 2px 2px, -2px -2px -2px; 
 }
 
 .contact_maps_txt{
@@ -156,20 +147,24 @@ iframe{
 	margin: 0px;
 	padding: 0px;
 	width: 40%;
-	
 }
 
 /* Contact Page End */
 
 
 
+
+
+
 /* Video Page */
+
 .video_description_above{
 	font-size: 32px;
 	color: white;
 	padding: 3px 20px;
 	background-color:#98bf21;
 	display:block;
+
 }
 
 .video_description_below{
@@ -201,4 +196,23 @@ iframe{
 /* Footer End */
 
 
+
 /* Misc */
+
+
+				.aboutus{	
+					padding-top: .5em;
+					width:  inherit;
+					height: inherit;
+					text-indent: 200px;
+					font-size: 4em;
+					font-style: block;
+						}
+				.company{
+					font-size: 1.8em;
+					margin-top:  20px;
+					margin-left: 200px;
+					text-align: justify;
+					font-style: italic;
+				}	
+
